@@ -1,0 +1,23 @@
+.listbox {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.listitem {
+  width: 100%;  
+}
+.title {
+   width: 100%-40px;
+   padding: 0 20px;
+   display: flex;
+   justify-content: space-between;
+   height: 50px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.249);
+}
+
+.status{
+   color:gba(0, 0, 0, 0.249);  
+}
+.content{
+   display: none;
+}
