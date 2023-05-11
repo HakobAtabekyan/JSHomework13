@@ -19,5 +19,16 @@
    color:gba(0, 0, 0, 0.249);  
 }
 .content{
+   display: none ;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+form {
+   border: 1px solid black; 
+   padding: 30px;
+   margin-top: 50px;
    display: none;
 }

@@ -33,4 +33,22 @@ console.log(this)
 
 }
 
+let btn = document.querySelector(".btn")
+
+btn.onclick = function(){
+    let frm = document.querySelector("form");  
+    
+    if(frm.style.display == "none" || frm.style.display == "" ){
+        frm.style.display = "block";
+        btn.innerHTML = "Close form"
+    } else{
+        frm.style.display = "none"; 
+        btn.innerHTML = "Open form"
+    }  
+   
+   
+}
+ 
+
+
 
